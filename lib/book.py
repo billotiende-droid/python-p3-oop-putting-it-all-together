@@ -24,4 +24,4 @@ book = Book("And Then There Were None", 272)
 print(book.title)        # Output: And Then There Were None
 print(book.page_count)   # Output: 272
 
-print(turn_page())  # Output: Flipping the page...wow, you read fast!
+book.turn_page()
