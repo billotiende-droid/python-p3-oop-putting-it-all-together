@@ -18,3 +18,10 @@ class Book:
 
     def turn_page(self):
         print("Flipping the page...wow, you read fast!")        
+
+
+book = Book("And Then There Were None", 272)
+print(book.title)        # Output: And Then There Were None
+print(book.page_count)   # Output: 272
+
+print(turn_page())  # Output: Flipping the page...wow, you read fast!
